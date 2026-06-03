@@ -18,7 +18,7 @@ pinned to a commit so the served bytes are immutable.
 
 | branch | dataset | sequences | source commit |
 |---|---|---|---|
-| `zz12-n10-free` | ZZ12, perimeter <= 10, free (OEIS A316192) | 16751 | `c8a7c1ddb13e67497d8671b86910925cf430acc8` |
+| `zz12-n14-free` | ZZ12, perimeter <= 14, free (OEIS A316192) | 33279563 | `c8a7c1ddb13e67497d8671b86910925cf430acc8` |
 
 ## License
 
