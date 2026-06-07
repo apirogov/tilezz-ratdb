@@ -1,0 +1,2050 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.2/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "ring",
+          "value": 8
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "step",
+          "value": 1
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "effectiveRing",
+          "value": 8
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "maxPerimeter",
+          "value": 20
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "canonicalization",
+          "value": "free"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "nSequences",
+          "value": 2940554725
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "maxIndexedLength",
+          "value": 20
+        }
+      ],
+      "creator": [
+        {
+          "@id": "https://orcid.org/0000-0002-5077-7497"
+        }
+      ],
+      "datePublished": "2026-06-07T12:10:12Z",
+      "description": "Simple matchstick polygons (closed self-avoiding unit-edge polygons) on the cyclotomic ring Z[zeta_8], with perimeter <= 20, canonicalized by free (full dihedral) symmetry. Contains 2940554725 sequences. Self-describing tilezz-rat-dafsa-blocks asset (schemas alongside).",
+      "distribution": {
+        "@type": "DataDownload",
+        "contentSize": "14757",
+        "contentUrl": "block_index.json",
+        "encodingFormat": "application/json"
+      },
+      "hasPart": [
+        {
+          "@id": "README.md"
+        },
+        {
+          "@id": "block_index.json"
+        },
+        {
+          "@id": "blocks/022a2ddb53516f4c8d045d4cf3f498261b7b2a07762d0cda58eb33de5eb0b087.bin"
+        },
+        {
+          "@id": "blocks/031a33e05f0ba3c7660df04514bbc5cb07885c46112a4ce386d5f704c4f66193.bin"
+        },
+        {
+          "@id": "blocks/0457667d3d2f7406fc829cba099b9986b37ab4e838b37e53c09376f4047d9564.bin"
+        },
+        {
+          "@id": "blocks/04957cb94ef07170a5a190237a595c0ce44a7fe3ac1423a805ccf58d0c14ee0e.bin"
+        },
+        {
+          "@id": "blocks/0ecff5a9a3ad7c53f859c053d4d896d4e453b245f79cebc741549d8f39d42087.bin"
+        },
+        {
+          "@id": "blocks/111bc658ea803ef965d5503e5a0da3ca823d16b64998dbb0127e6adc617f812c.bin"
+        },
+        {
+          "@id": "blocks/122edc9926b1a5fda93084677332c05b2b1b7d4628fa7d3c5d4f76f5f6b7e80b.bin"
+        },
+        {
+          "@id": "blocks/13cc1d86849e96b03008f78fd56c9a6e1ed2a1089778ef74b93cc215db2d8a47.bin"
+        },
+        {
+          "@id": "blocks/15a38c5654fa14d88eb2b41c83bbbba7abb1d16297c7e70215b3f8948d3ee1d3.bin"
+        },
+        {
+          "@id": "blocks/1c20be812e410d0b4f42fde9f6129cd45d5da979e59a410d0c58b0cface41572.bin"
+        },
+        {
+          "@id": "blocks/208411ca7d83145c0b758f0a76d1c80f5f2975564bc4572c2c3f3dd22d992d61.bin"
+        },
+        {
+          "@id": "blocks/25a3aa5908ca029ee4aa5b22c1e9d9d21f569def2b7b55c90d14077c5ac95bae.bin"
+        },
+        {
+          "@id": "blocks/2893e7f7ce0d61ec28d7752736e6e7a7fad37bce90a0941f74300ac08a5fc536.bin"
+        },
+        {
+          "@id": "blocks/3438561e840db8ad5204f5730d2fb20dbb3811f6ca6f55e7cc1eb1c0457ca795.bin"
+        },
+        {
+          "@id": "blocks/34aeebdc7098d3f8a6d06a7f549604092c2edfbb107b497e0ec7722af2aec015.bin"
+        },
+        {
+          "@id": "blocks/362f99c69a4ee948558635c9dbfb22e85bfc4ac10c5701145f9aff9690039867.bin"
+        },
+        {
+          "@id": "blocks/39ec2265ed934e40aa425f2726e11309666ea4d9e277bb8dded7b8139d52473e.bin"
+        },
+        {
+          "@id": "blocks/3f96a017fff434f48410cfa8f7bbf8687f4eb5a54298f79c2a29ef1e3bd50b31.bin"
+        },
+        {
+          "@id": "blocks/40bc1dc8860afa94c54d9b5975ddf96df30a280d8fa88184df03d7d2a2a11ecf.bin"
+        },
+        {
+          "@id": "blocks/40f478935eb9003832429d108fb730f69f91e097bca9e56f2f285ae297a4cd03.bin"
+        },
+        {
+          "@id": "blocks/4168f6510b794ed8d75d1fa2459c4fa3f68e0c8b69ea66e01edc9d78ccb20540.bin"
+        },
+        {
+          "@id": "blocks/45b97336c4245300ec7ab43d5fa747b7446221b1372ae23952b0953b6219cc4e.bin"
+        },
+        {
+          "@id": "blocks/45beb60bbaf35e308a06d018d1068e1f789fea266a2c0f039f1fc69e0bf7cb79.bin"
+        },
+        {
+          "@id": "blocks/4a113ef70eed988ebdec0e36648d1af3f013648c5a1eacb715779a5a94764ec2.bin"
+        },
+        {
+          "@id": "blocks/4bee1f5796a0e051805aa1bdc4aa63809263666493095fff08baa3d91dc71838.bin"
+        },
+        {
+          "@id": "blocks/4d3ae64fb26eeaf593929c289ba644dd358c79b439dc6818f3a0c23caeac54b1.bin"
+        },
+        {
+          "@id": "blocks/4ebd344111e2ac5dabc2b8ada1b729adf307570f5b7b4043cfbfc8c07a267c07.bin"
+        },
+        {
+          "@id": "blocks/4eca1dd370608dc64b8d70a567514a13373abab119e93bc883dedce58c9156c6.bin"
+        },
+        {
+          "@id": "blocks/512d5e0541df89980ed005a69d9c4d1fa88665a1a8653ef83fba1db62ae56030.bin"
+        },
+        {
+          "@id": "blocks/5cf32593bccbaa7d1f31f87ded9aa071171e04b35fb25181baf3cc97bd847e17.bin"
+        },
+        {
+          "@id": "blocks/61e1c0a46a09b6c6e5753f190ee04b131ee37eebfc56bbd0a5f783fdb702a835.bin"
+        },
+        {
+          "@id": "blocks/6356933a1378707a4dcd911256f6f995fbde0e24a7084778db2c4c5a5d20f2dc.bin"
+        },
+        {
+          "@id": "blocks/64841b88c5e6138340cc3f92ccad0ad5d53eb4d6d9b5337b340ae1ad27f7df25.bin"
+        },
+        {
+          "@id": "blocks/67465cbae3f795e3f67599fd0865a1c1372076d9dd8c8bc97dfda8204921d698.bin"
+        },
+        {
+          "@id": "blocks/698ae790c3f55a998048976dae178e4110226e9cfac42bc4a1d7ee43be182287.bin"
+        },
+        {
+          "@id": "blocks/6a72844de333bac2c5a642420af8c6848af7b4b867b9b7e64bdccf58a5c6868b.bin"
+        },
+        {
+          "@id": "blocks/6e50d66eb0c4ec3ad7703b1496fa75be55599a4f6d2fc8c3bede83bd1370d2f3.bin"
+        },
+        {
+          "@id": "blocks/6ffe8a41b084615872ed55a4fe30183a0a8fc9315f89f97ea971a82b21c372c5.bin"
+        },
+        {
+          "@id": "blocks/76a6d4bc9bc88067b489fab5b89002e7c1021ffb9407a8062fa7ba2ebc9066e7.bin"
+        },
+        {
+          "@id": "blocks/777002c8b4f79a47a093f42ff07703f2a10009719fea72e8642713d5a75a3812.bin"
+        },
+        {
+          "@id": "blocks/796d7d5ad2d6cfcab60d4007a6fb5a039a6da96f00cf3d6041a4c62530245b13.bin"
+        },
+        {
+          "@id": "blocks/7a83eeced529cf7eeea06158543741df17d9bd9efd97499d3b0b211114bb25a8.bin"
+        },
+        {
+          "@id": "blocks/7be25c528b8bc82ab9d83c684af3807e056632fad277c088e0a5b7e2bfd46bc9.bin"
+        },
+        {
+          "@id": "blocks/7c97ecb706b1b85edb6fc0c18a297827265d68e6d41ea26c34a96aa05ad4bb42.bin"
+        },
+        {
+          "@id": "blocks/7e344a4c9750191077ff8dc611db66b0fb1abf5fe1b7970841a74417a2b924e5.bin"
+        },
+        {
+          "@id": "blocks/7e5d59a630b2592dfd60c299731245f9446c20db6299d826e2489de03ad69300.bin"
+        },
+        {
+          "@id": "blocks/7ef98f4b3428e728e813c878905430a36108fd84391fd47cd27b0746625e9e9a.bin"
+        },
+        {
+          "@id": "blocks/80b03f6ca3a26d2a0b77ea02970f122f4a439a4a08840ab8ce3c800e9009ac6c.bin"
+        },
+        {
+          "@id": "blocks/812b3df3220232317aae0f62a87352490b9e512a393b092b53e4f29f17df27e0.bin"
+        },
+        {
+          "@id": "blocks/8256436b984ff3c3c63422ed13c8db9d4adc1269d730b8c4695165ec895bcbfe.bin"
+        },
+        {
+          "@id": "blocks/82bd3ecd1d29e3201a3cfbb06bda87f345e884ccd198da03add9f6122fd41be1.bin"
+        },
+        {
+          "@id": "blocks/8a1312c01aec99d554b9d56ebb051d64d4f7fdbfda8188c4d4facf8a1e11ab43.bin"
+        },
+        {
+          "@id": "blocks/8a72b5bfdcb464004b4423f4256e476fcb21b9b6dde81fffd737f72fbcbe79c1.bin"
+        },
+        {
+          "@id": "blocks/8ee6669c0afa747f3c0ff6814c3389847f0bb143bd63a29468fb37e25e69b61d.bin"
+        },
+        {
+          "@id": "blocks/8f7ff62dae25eb619508958346b40d18546fb0f2af35ace128a81cbe9d87f423.bin"
+        },
+        {
+          "@id": "blocks/917766415bbf7839c9252a1f6806da25923eca3f101d9b37e1df10bca5345e41.bin"
+        },
+        {
+          "@id": "blocks/9450459fd9596cdf1e8b1345ccb6fe8d48224166b11212edee95d631c9a53118.bin"
+        },
+        {
+          "@id": "blocks/94708310093dc505270ca8ad1038a74c1579f5679405f60de57e20e01267e5b1.bin"
+        },
+        {
+          "@id": "blocks/95410a65b64d0ddc36e2635df9e1387930486e643d715a90a486eb7d4dc4186f.bin"
+        },
+        {
+          "@id": "blocks/962877db7121eb5ec2836950a09fc8ada4f28ad9db27d08ab7a62dff040d38b4.bin"
+        },
+        {
+          "@id": "blocks/96a9f5df628b605b8a05df4ff7f0e91c22ee93c58d236a1df4666aa8530152ce.bin"
+        },
+        {
+          "@id": "blocks/98f8e8b18d7161efaa03e1c20f2a27f02016765c422ca45a85f0bace52898212.bin"
+        },
+        {
+          "@id": "blocks/99ef3db4364fb6f0452591997fbed2d53c4ae16bd7bd8534dfd6920377cf36f8.bin"
+        },
+        {
+          "@id": "blocks/9cba23867a4e3e3c01f227e1775ff781f91f6380c4520e7acbb312766410ffe1.bin"
+        },
+        {
+          "@id": "blocks/9e5de7409a59cb09e6948a8252f1a246d8750954c8ec5718920ff2ed598f0935.bin"
+        },
+        {
+          "@id": "blocks/9f9a8c2d917b8791dc2c349773b7d7c1706cf86724743c8fc4266385c52b3d12.bin"
+        },
+        {
+          "@id": "blocks/a0eaf5f4b81961354626a57462826113dcf8aeba2f4269b5351a2fd11a1eb556.bin"
+        },
+        {
+          "@id": "blocks/a347c12c5e9d79fb82246d7afbdae2a4c692af613e1367ecf7902b14f53d2ca9.bin"
+        },
+        {
+          "@id": "blocks/a5d635135ec67dbff2af96e256ed828f3675f4d297a2d83a4438f3232349e4b7.bin"
+        },
+        {
+          "@id": "blocks/a6ef83e6ded73f0d0807176aa3155c7d9545ca2def2d9fb3653f9f6367ea87d2.bin"
+        },
+        {
+          "@id": "blocks/a7513b2f3bf7a77962b435d6f51ca1583de6e305f4c40a690b27db4f2095d607.bin"
+        },
+        {
+          "@id": "blocks/a80048705522d7b6944837d4d312e82a542deb65e498fa4f3cf2277864b3024c.bin"
+        },
+        {
+          "@id": "blocks/ace8a736e2f827962981c76381d17a34f93af747e8f476bb8b8c1a661203dc01.bin"
+        },
+        {
+          "@id": "blocks/b0174303a8584409158a6d8f4788e09e06109cd107ff254419496caed76d6ee8.bin"
+        },
+        {
+          "@id": "blocks/b3ea3a674b1116b4160f24bb9ed60a266ad0a528f80954e871b2d51e59fbd920.bin"
+        },
+        {
+          "@id": "blocks/b44172b95d09a7bf57cab1c2f3dd8599bcb63977ea92f6c42ff945f1d8545351.bin"
+        },
+        {
+          "@id": "blocks/b91c3fb5352c1a827173ae1d0341ebcab2a8b8cb3de90d12b02d922373490404.bin"
+        },
+        {
+          "@id": "blocks/bb5f8c164829af01f1438fc04468ccd192085bd890e8d17c39879e1d08396d52.bin"
+        },
+        {
+          "@id": "blocks/be035af6632fd2ac5eb773a3dcae2e20eb57c460c2ff4c4dc53a3f5ea1cb2b62.bin"
+        },
+        {
+          "@id": "blocks/c193b83e0f4bc2f16757dd6611f180b1ddf1c9923b47935dfa48e6d77a5543b2.bin"
+        },
+        {
+          "@id": "blocks/c26594a2c445c48850769deb41172daa66f2ad4d4f17bcee05ff4776006eaf8a.bin"
+        },
+        {
+          "@id": "blocks/c99c8137cc11147e3cee1cb4579990b7bb655bd759957e79db34db8371135fcb.bin"
+        },
+        {
+          "@id": "blocks/cd62b6ca41d8a424edbe526ad39fbe0d1117c10122b95c532ae8a3c280943385.bin"
+        },
+        {
+          "@id": "blocks/d185444eca079fa3ae0d37577387ee8894074a2656d9418c5385609d165053c5.bin"
+        },
+        {
+          "@id": "blocks/d80722436097198d9ee17ec81b9efe1da6bc30bb037cc8539ab5307398393971.bin"
+        },
+        {
+          "@id": "blocks/df63e44b9b96beabd087e9b8334703b9f9f4ed5ac0fbf677fc4991e8d15c078e.bin"
+        },
+        {
+          "@id": "blocks/e415d129a3f5ced72a421416147c64a3362b313066f9f957fd46f4482cc59594.bin"
+        },
+        {
+          "@id": "blocks/e81bbd5b3acac999688eae13adc247285f3c95ef426ffa3e44f45bf6ef017246.bin"
+        },
+        {
+          "@id": "blocks/eedccc34873d86387997d870e93ea2e5ac9c9a6fc82c2b785b036fc64a8feb0a.bin"
+        },
+        {
+          "@id": "blocks/f002bde72855d64b5e5e11ba818ba5745c01255e5095f968a239ff6638f66a4d.bin"
+        },
+        {
+          "@id": "blocks/f0b4ff2230c7a90b594aac9ef18bb2a3482677ef22663234c93d7c699b4c85c0.bin"
+        },
+        {
+          "@id": "blocks/ff0f700e883dd187f0041a219aa0d4e7c562a5371bb28ea736c53304e1f8e80a.bin"
+        },
+        {
+          "@id": "blocks/ff44c4a86210b0dffe6b62ff03eba7e5a2c0b83e19f33ec1022c3f64e654d209.bin"
+        },
+        {
+          "@id": "schemas/block_index.schema.json"
+        },
+        {
+          "@id": "schemas/blocks_schema.txt"
+        },
+        {
+          "@id": "schemas/rat_schema.txt"
+        },
+        {
+          "@id": "tools/__pycache__/decode.cpython-313.pyc"
+        },
+        {
+          "@id": "tools/count.py"
+        },
+        {
+          "@id": "tools/decode.py"
+        },
+        {
+          "@id": "tools/reproduce.sh"
+        },
+        {
+          "@id": "tools/verify.rs"
+        },
+        {
+          "@id": "tools/verify_canonical.py"
+        },
+        {
+          "@id": "tools/verify_sha256.py"
+        }
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "tilezz-dataset-id",
+        "value": "tilezz-rat-zz8-n20-free"
+      },
+      "keywords": [
+        "combinatorial enumeration",
+        "self-avoiding polygon",
+        "cyclotomic lattice",
+        "matchstick polygon",
+        "Z[zeta_8]",
+        "A316198"
+      ],
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "mainEntity": {
+        "@id": "block_index.json"
+      },
+      "name": "tilezz simple matchstick polygons on Z[zeta_8], perimeter <= 20, free",
+      "subjectOf": {
+        "@id": "https://oeis.org/A316198"
+      },
+      "variableMeasured": [
+        {
+          "@type": "PropertyValue",
+          "description": "Self-avoiding polygons by exact perimeter (index = perimeter, from 1); the base count, up to rotation and reflection.",
+          "name": "free",
+          "unitText": "polygons",
+          "value": "0,0,0,2,0,6,0,59,0,695,0,12198,0,240549,0,5191160,0,118346760,0,2816763296"
+        },
+        {
+          "@type": "PropertyValue",
+          "description": "Up to rotation only; mirror images counted as distinct (= 2*free - achiral).",
+          "name": "oneSided",
+          "unitText": "polygons",
+          "value": "0,0,0,2,0,9,0,94,0,1347,0,23985,0,480273,0,10373551,0,236675115,0,5633319119"
+        },
+        {
+          "@type": "PropertyValue",
+          "description": "Equal to its own mirror image.",
+          "name": "achiral",
+          "unitText": "polygons",
+          "value": "0,0,0,2,0,3,0,24,0,43,0,411,0,825,0,8769,0,18405,0,207473"
+        },
+        {
+          "@type": "PropertyValue",
+          "description": "Repetition factor > 1 (nontrivial rotational symmetry).",
+          "name": "rotationSymmetric",
+          "unitText": "polygons",
+          "value": "0,0,0,2,0,4,0,17,0,63,0,296,0,1421,0,7104,0,36898,0,191533"
+        },
+        {
+          "@type": "PropertyValue",
+          "description": "Has a nontrivial symmetry: achiral OR rotationSymmetric.",
+          "name": "symmetric",
+          "unitText": "polygons",
+          "value": "0,0,0,2,0,5,0,33,0,97,0,666,0,2200,0,15664,0,55062,0,397872"
+        },
+        {
+          "@type": "PropertyValue",
+          "description": "All turns even -- the polygons of the order-n/2 sub-ring.",
+          "name": "subring",
+          "unitText": "polygons",
+          "value": "0,0,0,1,0,1,0,3,0,6,0,25,0,86,0,414,0,1975,0,10479"
+        },
+        {
+          "@type": "PropertyValue",
+          "description": "All turns odd -- no straight segments; even perimeter only.",
+          "name": "coset",
+          "unitText": "polygons",
+          "value": "0,0,0,1,0,0,0,4,0,0,0,46,0,0,0,1321,0,0,0,55157"
+        }
+      ],
+      "version": "2026-06-07"
+    },
+    {
+      "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "@type": "CreativeWork",
+      "identifier": "CC-BY-SA-4.0",
+      "name": "Creative Commons Attribution-ShareAlike 4.0 International"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5077-7497",
+      "@type": "Person",
+      "email": "apirogov@users.noreply.github.com",
+      "identifier": "https://orcid.org/0000-0002-5077-7497",
+      "name": "Anton Pirogov"
+    },
+    {
+      "@id": "#tilezz",
+      "@type": "SoftwareApplication",
+      "codeRepository": "https://github.com/apirogov/tilezz",
+      "description": "Utilities to work with perfect-precision polygonal tiles built on top of cyclotomic integer rings.",
+      "downloadUrl": "https://github.com/apirogov/tilezz/archive/aea0104980c8742d828060ec03437c64b72afa18.tar.gz",
+      "name": "tilezz",
+      "softwareRequirements": "Rust toolchain (stable, 2024-12+); standard Cargo build prerequisites (git, C linker, pkg-config).",
+      "softwareVersion": "aea0104980c8742d828060ec03437c64b72afa18",
+      "url": "https://github.com/apirogov/tilezz",
+      "version": "0.1.2"
+    },
+    {
+      "@id": "#build",
+      "@type": "CreateAction",
+      "description": "Produced by: ./target/release/rat_enum --ring 8 -n 20 --free --oeis-a-number A316198 --mode stream --threads 16 -o tilezz-rat-zz8-n20-free-pipeline && ./target/release/rat_enum --ring 8 -n 20 --free --oeis-a-number A316198 --mode merge -o tilezz-rat-zz8-n20-free-pipeline && ./target/release/rat_enum --ring 8 -n 20 --free --oeis-a-number A316198 --mode build --target-block-bytes 4194304 -o tilezz-rat-zz8-n20-free-pipeline && mv tilezz-rat-zz8-n20-free-pipeline/dafsa tilezz-rat-zz8-n20-free\nReproduce: bash tools/reproduce.sh (in this directory). See README.md for context.",
+      "endTime": "2026-06-07T12:10:12Z",
+      "instrument": {
+        "@id": "#tilezz"
+      },
+      "name": "Generate tilezz-rat-zz8-n20-free",
+      "result": [
+        {
+          "@id": "README.md"
+        },
+        {
+          "@id": "block_index.json"
+        },
+        {
+          "@id": "blocks/022a2ddb53516f4c8d045d4cf3f498261b7b2a07762d0cda58eb33de5eb0b087.bin"
+        },
+        {
+          "@id": "blocks/031a33e05f0ba3c7660df04514bbc5cb07885c46112a4ce386d5f704c4f66193.bin"
+        },
+        {
+          "@id": "blocks/0457667d3d2f7406fc829cba099b9986b37ab4e838b37e53c09376f4047d9564.bin"
+        },
+        {
+          "@id": "blocks/04957cb94ef07170a5a190237a595c0ce44a7fe3ac1423a805ccf58d0c14ee0e.bin"
+        },
+        {
+          "@id": "blocks/0ecff5a9a3ad7c53f859c053d4d896d4e453b245f79cebc741549d8f39d42087.bin"
+        },
+        {
+          "@id": "blocks/111bc658ea803ef965d5503e5a0da3ca823d16b64998dbb0127e6adc617f812c.bin"
+        },
+        {
+          "@id": "blocks/122edc9926b1a5fda93084677332c05b2b1b7d4628fa7d3c5d4f76f5f6b7e80b.bin"
+        },
+        {
+          "@id": "blocks/13cc1d86849e96b03008f78fd56c9a6e1ed2a1089778ef74b93cc215db2d8a47.bin"
+        },
+        {
+          "@id": "blocks/15a38c5654fa14d88eb2b41c83bbbba7abb1d16297c7e70215b3f8948d3ee1d3.bin"
+        },
+        {
+          "@id": "blocks/1c20be812e410d0b4f42fde9f6129cd45d5da979e59a410d0c58b0cface41572.bin"
+        },
+        {
+          "@id": "blocks/208411ca7d83145c0b758f0a76d1c80f5f2975564bc4572c2c3f3dd22d992d61.bin"
+        },
+        {
+          "@id": "blocks/25a3aa5908ca029ee4aa5b22c1e9d9d21f569def2b7b55c90d14077c5ac95bae.bin"
+        },
+        {
+          "@id": "blocks/2893e7f7ce0d61ec28d7752736e6e7a7fad37bce90a0941f74300ac08a5fc536.bin"
+        },
+        {
+          "@id": "blocks/3438561e840db8ad5204f5730d2fb20dbb3811f6ca6f55e7cc1eb1c0457ca795.bin"
+        },
+        {
+          "@id": "blocks/34aeebdc7098d3f8a6d06a7f549604092c2edfbb107b497e0ec7722af2aec015.bin"
+        },
+        {
+          "@id": "blocks/362f99c69a4ee948558635c9dbfb22e85bfc4ac10c5701145f9aff9690039867.bin"
+        },
+        {
+          "@id": "blocks/39ec2265ed934e40aa425f2726e11309666ea4d9e277bb8dded7b8139d52473e.bin"
+        },
+        {
+          "@id": "blocks/3f96a017fff434f48410cfa8f7bbf8687f4eb5a54298f79c2a29ef1e3bd50b31.bin"
+        },
+        {
+          "@id": "blocks/40bc1dc8860afa94c54d9b5975ddf96df30a280d8fa88184df03d7d2a2a11ecf.bin"
+        },
+        {
+          "@id": "blocks/40f478935eb9003832429d108fb730f69f91e097bca9e56f2f285ae297a4cd03.bin"
+        },
+        {
+          "@id": "blocks/4168f6510b794ed8d75d1fa2459c4fa3f68e0c8b69ea66e01edc9d78ccb20540.bin"
+        },
+        {
+          "@id": "blocks/45b97336c4245300ec7ab43d5fa747b7446221b1372ae23952b0953b6219cc4e.bin"
+        },
+        {
+          "@id": "blocks/45beb60bbaf35e308a06d018d1068e1f789fea266a2c0f039f1fc69e0bf7cb79.bin"
+        },
+        {
+          "@id": "blocks/4a113ef70eed988ebdec0e36648d1af3f013648c5a1eacb715779a5a94764ec2.bin"
+        },
+        {
+          "@id": "blocks/4bee1f5796a0e051805aa1bdc4aa63809263666493095fff08baa3d91dc71838.bin"
+        },
+        {
+          "@id": "blocks/4d3ae64fb26eeaf593929c289ba644dd358c79b439dc6818f3a0c23caeac54b1.bin"
+        },
+        {
+          "@id": "blocks/4ebd344111e2ac5dabc2b8ada1b729adf307570f5b7b4043cfbfc8c07a267c07.bin"
+        },
+        {
+          "@id": "blocks/4eca1dd370608dc64b8d70a567514a13373abab119e93bc883dedce58c9156c6.bin"
+        },
+        {
+          "@id": "blocks/512d5e0541df89980ed005a69d9c4d1fa88665a1a8653ef83fba1db62ae56030.bin"
+        },
+        {
+          "@id": "blocks/5cf32593bccbaa7d1f31f87ded9aa071171e04b35fb25181baf3cc97bd847e17.bin"
+        },
+        {
+          "@id": "blocks/61e1c0a46a09b6c6e5753f190ee04b131ee37eebfc56bbd0a5f783fdb702a835.bin"
+        },
+        {
+          "@id": "blocks/6356933a1378707a4dcd911256f6f995fbde0e24a7084778db2c4c5a5d20f2dc.bin"
+        },
+        {
+          "@id": "blocks/64841b88c5e6138340cc3f92ccad0ad5d53eb4d6d9b5337b340ae1ad27f7df25.bin"
+        },
+        {
+          "@id": "blocks/67465cbae3f795e3f67599fd0865a1c1372076d9dd8c8bc97dfda8204921d698.bin"
+        },
+        {
+          "@id": "blocks/698ae790c3f55a998048976dae178e4110226e9cfac42bc4a1d7ee43be182287.bin"
+        },
+        {
+          "@id": "blocks/6a72844de333bac2c5a642420af8c6848af7b4b867b9b7e64bdccf58a5c6868b.bin"
+        },
+        {
+          "@id": "blocks/6e50d66eb0c4ec3ad7703b1496fa75be55599a4f6d2fc8c3bede83bd1370d2f3.bin"
+        },
+        {
+          "@id": "blocks/6ffe8a41b084615872ed55a4fe30183a0a8fc9315f89f97ea971a82b21c372c5.bin"
+        },
+        {
+          "@id": "blocks/76a6d4bc9bc88067b489fab5b89002e7c1021ffb9407a8062fa7ba2ebc9066e7.bin"
+        },
+        {
+          "@id": "blocks/777002c8b4f79a47a093f42ff07703f2a10009719fea72e8642713d5a75a3812.bin"
+        },
+        {
+          "@id": "blocks/796d7d5ad2d6cfcab60d4007a6fb5a039a6da96f00cf3d6041a4c62530245b13.bin"
+        },
+        {
+          "@id": "blocks/7a83eeced529cf7eeea06158543741df17d9bd9efd97499d3b0b211114bb25a8.bin"
+        },
+        {
+          "@id": "blocks/7be25c528b8bc82ab9d83c684af3807e056632fad277c088e0a5b7e2bfd46bc9.bin"
+        },
+        {
+          "@id": "blocks/7c97ecb706b1b85edb6fc0c18a297827265d68e6d41ea26c34a96aa05ad4bb42.bin"
+        },
+        {
+          "@id": "blocks/7e344a4c9750191077ff8dc611db66b0fb1abf5fe1b7970841a74417a2b924e5.bin"
+        },
+        {
+          "@id": "blocks/7e5d59a630b2592dfd60c299731245f9446c20db6299d826e2489de03ad69300.bin"
+        },
+        {
+          "@id": "blocks/7ef98f4b3428e728e813c878905430a36108fd84391fd47cd27b0746625e9e9a.bin"
+        },
+        {
+          "@id": "blocks/80b03f6ca3a26d2a0b77ea02970f122f4a439a4a08840ab8ce3c800e9009ac6c.bin"
+        },
+        {
+          "@id": "blocks/812b3df3220232317aae0f62a87352490b9e512a393b092b53e4f29f17df27e0.bin"
+        },
+        {
+          "@id": "blocks/8256436b984ff3c3c63422ed13c8db9d4adc1269d730b8c4695165ec895bcbfe.bin"
+        },
+        {
+          "@id": "blocks/82bd3ecd1d29e3201a3cfbb06bda87f345e884ccd198da03add9f6122fd41be1.bin"
+        },
+        {
+          "@id": "blocks/8a1312c01aec99d554b9d56ebb051d64d4f7fdbfda8188c4d4facf8a1e11ab43.bin"
+        },
+        {
+          "@id": "blocks/8a72b5bfdcb464004b4423f4256e476fcb21b9b6dde81fffd737f72fbcbe79c1.bin"
+        },
+        {
+          "@id": "blocks/8ee6669c0afa747f3c0ff6814c3389847f0bb143bd63a29468fb37e25e69b61d.bin"
+        },
+        {
+          "@id": "blocks/8f7ff62dae25eb619508958346b40d18546fb0f2af35ace128a81cbe9d87f423.bin"
+        },
+        {
+          "@id": "blocks/917766415bbf7839c9252a1f6806da25923eca3f101d9b37e1df10bca5345e41.bin"
+        },
+        {
+          "@id": "blocks/9450459fd9596cdf1e8b1345ccb6fe8d48224166b11212edee95d631c9a53118.bin"
+        },
+        {
+          "@id": "blocks/94708310093dc505270ca8ad1038a74c1579f5679405f60de57e20e01267e5b1.bin"
+        },
+        {
+          "@id": "blocks/95410a65b64d0ddc36e2635df9e1387930486e643d715a90a486eb7d4dc4186f.bin"
+        },
+        {
+          "@id": "blocks/962877db7121eb5ec2836950a09fc8ada4f28ad9db27d08ab7a62dff040d38b4.bin"
+        },
+        {
+          "@id": "blocks/96a9f5df628b605b8a05df4ff7f0e91c22ee93c58d236a1df4666aa8530152ce.bin"
+        },
+        {
+          "@id": "blocks/98f8e8b18d7161efaa03e1c20f2a27f02016765c422ca45a85f0bace52898212.bin"
+        },
+        {
+          "@id": "blocks/99ef3db4364fb6f0452591997fbed2d53c4ae16bd7bd8534dfd6920377cf36f8.bin"
+        },
+        {
+          "@id": "blocks/9cba23867a4e3e3c01f227e1775ff781f91f6380c4520e7acbb312766410ffe1.bin"
+        },
+        {
+          "@id": "blocks/9e5de7409a59cb09e6948a8252f1a246d8750954c8ec5718920ff2ed598f0935.bin"
+        },
+        {
+          "@id": "blocks/9f9a8c2d917b8791dc2c349773b7d7c1706cf86724743c8fc4266385c52b3d12.bin"
+        },
+        {
+          "@id": "blocks/a0eaf5f4b81961354626a57462826113dcf8aeba2f4269b5351a2fd11a1eb556.bin"
+        },
+        {
+          "@id": "blocks/a347c12c5e9d79fb82246d7afbdae2a4c692af613e1367ecf7902b14f53d2ca9.bin"
+        },
+        {
+          "@id": "blocks/a5d635135ec67dbff2af96e256ed828f3675f4d297a2d83a4438f3232349e4b7.bin"
+        },
+        {
+          "@id": "blocks/a6ef83e6ded73f0d0807176aa3155c7d9545ca2def2d9fb3653f9f6367ea87d2.bin"
+        },
+        {
+          "@id": "blocks/a7513b2f3bf7a77962b435d6f51ca1583de6e305f4c40a690b27db4f2095d607.bin"
+        },
+        {
+          "@id": "blocks/a80048705522d7b6944837d4d312e82a542deb65e498fa4f3cf2277864b3024c.bin"
+        },
+        {
+          "@id": "blocks/ace8a736e2f827962981c76381d17a34f93af747e8f476bb8b8c1a661203dc01.bin"
+        },
+        {
+          "@id": "blocks/b0174303a8584409158a6d8f4788e09e06109cd107ff254419496caed76d6ee8.bin"
+        },
+        {
+          "@id": "blocks/b3ea3a674b1116b4160f24bb9ed60a266ad0a528f80954e871b2d51e59fbd920.bin"
+        },
+        {
+          "@id": "blocks/b44172b95d09a7bf57cab1c2f3dd8599bcb63977ea92f6c42ff945f1d8545351.bin"
+        },
+        {
+          "@id": "blocks/b91c3fb5352c1a827173ae1d0341ebcab2a8b8cb3de90d12b02d922373490404.bin"
+        },
+        {
+          "@id": "blocks/bb5f8c164829af01f1438fc04468ccd192085bd890e8d17c39879e1d08396d52.bin"
+        },
+        {
+          "@id": "blocks/be035af6632fd2ac5eb773a3dcae2e20eb57c460c2ff4c4dc53a3f5ea1cb2b62.bin"
+        },
+        {
+          "@id": "blocks/c193b83e0f4bc2f16757dd6611f180b1ddf1c9923b47935dfa48e6d77a5543b2.bin"
+        },
+        {
+          "@id": "blocks/c26594a2c445c48850769deb41172daa66f2ad4d4f17bcee05ff4776006eaf8a.bin"
+        },
+        {
+          "@id": "blocks/c99c8137cc11147e3cee1cb4579990b7bb655bd759957e79db34db8371135fcb.bin"
+        },
+        {
+          "@id": "blocks/cd62b6ca41d8a424edbe526ad39fbe0d1117c10122b95c532ae8a3c280943385.bin"
+        },
+        {
+          "@id": "blocks/d185444eca079fa3ae0d37577387ee8894074a2656d9418c5385609d165053c5.bin"
+        },
+        {
+          "@id": "blocks/d80722436097198d9ee17ec81b9efe1da6bc30bb037cc8539ab5307398393971.bin"
+        },
+        {
+          "@id": "blocks/df63e44b9b96beabd087e9b8334703b9f9f4ed5ac0fbf677fc4991e8d15c078e.bin"
+        },
+        {
+          "@id": "blocks/e415d129a3f5ced72a421416147c64a3362b313066f9f957fd46f4482cc59594.bin"
+        },
+        {
+          "@id": "blocks/e81bbd5b3acac999688eae13adc247285f3c95ef426ffa3e44f45bf6ef017246.bin"
+        },
+        {
+          "@id": "blocks/eedccc34873d86387997d870e93ea2e5ac9c9a6fc82c2b785b036fc64a8feb0a.bin"
+        },
+        {
+          "@id": "blocks/f002bde72855d64b5e5e11ba818ba5745c01255e5095f968a239ff6638f66a4d.bin"
+        },
+        {
+          "@id": "blocks/f0b4ff2230c7a90b594aac9ef18bb2a3482677ef22663234c93d7c699b4c85c0.bin"
+        },
+        {
+          "@id": "blocks/ff0f700e883dd187f0041a219aa0d4e7c562a5371bb28ea736c53304e1f8e80a.bin"
+        },
+        {
+          "@id": "blocks/ff44c4a86210b0dffe6b62ff03eba7e5a2c0b83e19f33ec1022c3f64e654d209.bin"
+        },
+        {
+          "@id": "tools/__pycache__/decode.cpython-313.pyc"
+        },
+        {
+          "@id": "tools/count.py"
+        },
+        {
+          "@id": "tools/decode.py"
+        },
+        {
+          "@id": "tools/reproduce.sh"
+        },
+        {
+          "@id": "tools/verify.rs"
+        },
+        {
+          "@id": "tools/verify_canonical.py"
+        },
+        {
+          "@id": "tools/verify_sha256.py"
+        }
+      ]
+    },
+    {
+      "@id": "https://oeis.org/A316198",
+      "@type": "CreativeWork",
+      "identifier": "A316198",
+      "name": "OEIS A316198",
+      "url": "https://oeis.org/A316198"
+    },
+    {
+      "@id": "README.md",
+      "@type": "File",
+      "contentSize": "4290",
+      "description": "Human-readable entry point: dataset overview, author and copyright notice, CC-BY-SA 4.0 license summary, contents map, reproduction recipe (repo URL, exact commit, CLI invocation), and a SHA-256 verification snippet.",
+      "encodingFormat": "text/markdown",
+      "name": "README.md",
+      "sha256": "a1f4c83bb1f8fde0ac8766c0a6eb174c2231c75306afc0f1e542ea4d1f2fe597"
+    },
+    {
+      "@id": "block_index.json",
+      "@type": "File",
+      "conformsTo": [
+        {
+          "@id": "schemas/block_index.schema.json"
+        },
+        {
+          "@id": "schemas/blocks_schema.txt"
+        }
+      ],
+      "contentSize": "14757",
+      "description": "Manifest for the tilezz-rat-dafsa-blocks asset (state / edge counts, root state record, content-addressed block index).",
+      "encodingFormat": "application/json",
+      "name": "block_index.json",
+      "sha256": "0d296aed854ee575f8831dae0531eb2c94359cf20e68ea93f3b0cf77dd412d70"
+    },
+    {
+      "@id": "blocks/022a2ddb53516f4c8d045d4cf3f498261b7b2a07762d0cda58eb33de5eb0b087.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1265205",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "022a2ddb53516f4c8d045d4cf3f498261b7b2a07762d0cda58eb33de5eb0b087"
+    },
+    {
+      "@id": "blocks/031a33e05f0ba3c7660df04514bbc5cb07885c46112a4ce386d5f704c4f66193.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1235994",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "031a33e05f0ba3c7660df04514bbc5cb07885c46112a4ce386d5f704c4f66193"
+    },
+    {
+      "@id": "blocks/0457667d3d2f7406fc829cba099b9986b37ab4e838b37e53c09376f4047d9564.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1252730",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "0457667d3d2f7406fc829cba099b9986b37ab4e838b37e53c09376f4047d9564"
+    },
+    {
+      "@id": "blocks/04957cb94ef07170a5a190237a595c0ce44a7fe3ac1423a805ccf58d0c14ee0e.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1150369",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "04957cb94ef07170a5a190237a595c0ce44a7fe3ac1423a805ccf58d0c14ee0e"
+    },
+    {
+      "@id": "blocks/0ecff5a9a3ad7c53f859c053d4d896d4e453b245f79cebc741549d8f39d42087.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1257906",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "0ecff5a9a3ad7c53f859c053d4d896d4e453b245f79cebc741549d8f39d42087"
+    },
+    {
+      "@id": "blocks/111bc658ea803ef965d5503e5a0da3ca823d16b64998dbb0127e6adc617f812c.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1211941",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "111bc658ea803ef965d5503e5a0da3ca823d16b64998dbb0127e6adc617f812c"
+    },
+    {
+      "@id": "blocks/122edc9926b1a5fda93084677332c05b2b1b7d4628fa7d3c5d4f76f5f6b7e80b.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1138615",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "122edc9926b1a5fda93084677332c05b2b1b7d4628fa7d3c5d4f76f5f6b7e80b"
+    },
+    {
+      "@id": "blocks/13cc1d86849e96b03008f78fd56c9a6e1ed2a1089778ef74b93cc215db2d8a47.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1216994",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "13cc1d86849e96b03008f78fd56c9a6e1ed2a1089778ef74b93cc215db2d8a47"
+    },
+    {
+      "@id": "blocks/15a38c5654fa14d88eb2b41c83bbbba7abb1d16297c7e70215b3f8948d3ee1d3.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1266558",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "15a38c5654fa14d88eb2b41c83bbbba7abb1d16297c7e70215b3f8948d3ee1d3"
+    },
+    {
+      "@id": "blocks/1c20be812e410d0b4f42fde9f6129cd45d5da979e59a410d0c58b0cface41572.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1194327",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "1c20be812e410d0b4f42fde9f6129cd45d5da979e59a410d0c58b0cface41572"
+    },
+    {
+      "@id": "blocks/208411ca7d83145c0b758f0a76d1c80f5f2975564bc4572c2c3f3dd22d992d61.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1260269",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "208411ca7d83145c0b758f0a76d1c80f5f2975564bc4572c2c3f3dd22d992d61"
+    },
+    {
+      "@id": "blocks/25a3aa5908ca029ee4aa5b22c1e9d9d21f569def2b7b55c90d14077c5ac95bae.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1231238",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "25a3aa5908ca029ee4aa5b22c1e9d9d21f569def2b7b55c90d14077c5ac95bae"
+    },
+    {
+      "@id": "blocks/2893e7f7ce0d61ec28d7752736e6e7a7fad37bce90a0941f74300ac08a5fc536.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1179385",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "2893e7f7ce0d61ec28d7752736e6e7a7fad37bce90a0941f74300ac08a5fc536"
+    },
+    {
+      "@id": "blocks/3438561e840db8ad5204f5730d2fb20dbb3811f6ca6f55e7cc1eb1c0457ca795.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1286949",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "3438561e840db8ad5204f5730d2fb20dbb3811f6ca6f55e7cc1eb1c0457ca795"
+    },
+    {
+      "@id": "blocks/34aeebdc7098d3f8a6d06a7f549604092c2edfbb107b497e0ec7722af2aec015.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1258188",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "34aeebdc7098d3f8a6d06a7f549604092c2edfbb107b497e0ec7722af2aec015"
+    },
+    {
+      "@id": "blocks/362f99c69a4ee948558635c9dbfb22e85bfc4ac10c5701145f9aff9690039867.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1234761",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "362f99c69a4ee948558635c9dbfb22e85bfc4ac10c5701145f9aff9690039867"
+    },
+    {
+      "@id": "blocks/39ec2265ed934e40aa425f2726e11309666ea4d9e277bb8dded7b8139d52473e.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1229684",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "39ec2265ed934e40aa425f2726e11309666ea4d9e277bb8dded7b8139d52473e"
+    },
+    {
+      "@id": "blocks/3f96a017fff434f48410cfa8f7bbf8687f4eb5a54298f79c2a29ef1e3bd50b31.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1257934",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "3f96a017fff434f48410cfa8f7bbf8687f4eb5a54298f79c2a29ef1e3bd50b31"
+    },
+    {
+      "@id": "blocks/40bc1dc8860afa94c54d9b5975ddf96df30a280d8fa88184df03d7d2a2a11ecf.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1168349",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "40bc1dc8860afa94c54d9b5975ddf96df30a280d8fa88184df03d7d2a2a11ecf"
+    },
+    {
+      "@id": "blocks/40f478935eb9003832429d108fb730f69f91e097bca9e56f2f285ae297a4cd03.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1185330",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "40f478935eb9003832429d108fb730f69f91e097bca9e56f2f285ae297a4cd03"
+    },
+    {
+      "@id": "blocks/4168f6510b794ed8d75d1fa2459c4fa3f68e0c8b69ea66e01edc9d78ccb20540.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1264915",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "4168f6510b794ed8d75d1fa2459c4fa3f68e0c8b69ea66e01edc9d78ccb20540"
+    },
+    {
+      "@id": "blocks/45b97336c4245300ec7ab43d5fa747b7446221b1372ae23952b0953b6219cc4e.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1171586",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "45b97336c4245300ec7ab43d5fa747b7446221b1372ae23952b0953b6219cc4e"
+    },
+    {
+      "@id": "blocks/45beb60bbaf35e308a06d018d1068e1f789fea266a2c0f039f1fc69e0bf7cb79.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1258930",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "45beb60bbaf35e308a06d018d1068e1f789fea266a2c0f039f1fc69e0bf7cb79"
+    },
+    {
+      "@id": "blocks/4a113ef70eed988ebdec0e36648d1af3f013648c5a1eacb715779a5a94764ec2.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1288017",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "4a113ef70eed988ebdec0e36648d1af3f013648c5a1eacb715779a5a94764ec2"
+    },
+    {
+      "@id": "blocks/4bee1f5796a0e051805aa1bdc4aa63809263666493095fff08baa3d91dc71838.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1254546",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "4bee1f5796a0e051805aa1bdc4aa63809263666493095fff08baa3d91dc71838"
+    },
+    {
+      "@id": "blocks/4d3ae64fb26eeaf593929c289ba644dd358c79b439dc6818f3a0c23caeac54b1.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1257474",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "4d3ae64fb26eeaf593929c289ba644dd358c79b439dc6818f3a0c23caeac54b1"
+    },
+    {
+      "@id": "blocks/4ebd344111e2ac5dabc2b8ada1b729adf307570f5b7b4043cfbfc8c07a267c07.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1243044",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "4ebd344111e2ac5dabc2b8ada1b729adf307570f5b7b4043cfbfc8c07a267c07"
+    },
+    {
+      "@id": "blocks/4eca1dd370608dc64b8d70a567514a13373abab119e93bc883dedce58c9156c6.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1226542",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "4eca1dd370608dc64b8d70a567514a13373abab119e93bc883dedce58c9156c6"
+    },
+    {
+      "@id": "blocks/512d5e0541df89980ed005a69d9c4d1fa88665a1a8653ef83fba1db62ae56030.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1253479",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "512d5e0541df89980ed005a69d9c4d1fa88665a1a8653ef83fba1db62ae56030"
+    },
+    {
+      "@id": "blocks/5cf32593bccbaa7d1f31f87ded9aa071171e04b35fb25181baf3cc97bd847e17.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1198682",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "5cf32593bccbaa7d1f31f87ded9aa071171e04b35fb25181baf3cc97bd847e17"
+    },
+    {
+      "@id": "blocks/61e1c0a46a09b6c6e5753f190ee04b131ee37eebfc56bbd0a5f783fdb702a835.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1282299",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "61e1c0a46a09b6c6e5753f190ee04b131ee37eebfc56bbd0a5f783fdb702a835"
+    },
+    {
+      "@id": "blocks/6356933a1378707a4dcd911256f6f995fbde0e24a7084778db2c4c5a5d20f2dc.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1234140",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "6356933a1378707a4dcd911256f6f995fbde0e24a7084778db2c4c5a5d20f2dc"
+    },
+    {
+      "@id": "blocks/64841b88c5e6138340cc3f92ccad0ad5d53eb4d6d9b5337b340ae1ad27f7df25.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1263733",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "64841b88c5e6138340cc3f92ccad0ad5d53eb4d6d9b5337b340ae1ad27f7df25"
+    },
+    {
+      "@id": "blocks/67465cbae3f795e3f67599fd0865a1c1372076d9dd8c8bc97dfda8204921d698.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1301363",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "67465cbae3f795e3f67599fd0865a1c1372076d9dd8c8bc97dfda8204921d698"
+    },
+    {
+      "@id": "blocks/698ae790c3f55a998048976dae178e4110226e9cfac42bc4a1d7ee43be182287.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1292271",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "698ae790c3f55a998048976dae178e4110226e9cfac42bc4a1d7ee43be182287"
+    },
+    {
+      "@id": "blocks/6a72844de333bac2c5a642420af8c6848af7b4b867b9b7e64bdccf58a5c6868b.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1282862",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "6a72844de333bac2c5a642420af8c6848af7b4b867b9b7e64bdccf58a5c6868b"
+    },
+    {
+      "@id": "blocks/6e50d66eb0c4ec3ad7703b1496fa75be55599a4f6d2fc8c3bede83bd1370d2f3.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1180492",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "6e50d66eb0c4ec3ad7703b1496fa75be55599a4f6d2fc8c3bede83bd1370d2f3"
+    },
+    {
+      "@id": "blocks/6ffe8a41b084615872ed55a4fe30183a0a8fc9315f89f97ea971a82b21c372c5.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1215302",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "6ffe8a41b084615872ed55a4fe30183a0a8fc9315f89f97ea971a82b21c372c5"
+    },
+    {
+      "@id": "blocks/76a6d4bc9bc88067b489fab5b89002e7c1021ffb9407a8062fa7ba2ebc9066e7.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1284271",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "76a6d4bc9bc88067b489fab5b89002e7c1021ffb9407a8062fa7ba2ebc9066e7"
+    },
+    {
+      "@id": "blocks/777002c8b4f79a47a093f42ff07703f2a10009719fea72e8642713d5a75a3812.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1273023",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "777002c8b4f79a47a093f42ff07703f2a10009719fea72e8642713d5a75a3812"
+    },
+    {
+      "@id": "blocks/796d7d5ad2d6cfcab60d4007a6fb5a039a6da96f00cf3d6041a4c62530245b13.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1184179",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "796d7d5ad2d6cfcab60d4007a6fb5a039a6da96f00cf3d6041a4c62530245b13"
+    },
+    {
+      "@id": "blocks/7a83eeced529cf7eeea06158543741df17d9bd9efd97499d3b0b211114bb25a8.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1253574",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "7a83eeced529cf7eeea06158543741df17d9bd9efd97499d3b0b211114bb25a8"
+    },
+    {
+      "@id": "blocks/7be25c528b8bc82ab9d83c684af3807e056632fad277c088e0a5b7e2bfd46bc9.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1207886",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "7be25c528b8bc82ab9d83c684af3807e056632fad277c088e0a5b7e2bfd46bc9"
+    },
+    {
+      "@id": "blocks/7c97ecb706b1b85edb6fc0c18a297827265d68e6d41ea26c34a96aa05ad4bb42.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1218867",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "7c97ecb706b1b85edb6fc0c18a297827265d68e6d41ea26c34a96aa05ad4bb42"
+    },
+    {
+      "@id": "blocks/7e344a4c9750191077ff8dc611db66b0fb1abf5fe1b7970841a74417a2b924e5.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1217739",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "7e344a4c9750191077ff8dc611db66b0fb1abf5fe1b7970841a74417a2b924e5"
+    },
+    {
+      "@id": "blocks/7e5d59a630b2592dfd60c299731245f9446c20db6299d826e2489de03ad69300.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1288968",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "7e5d59a630b2592dfd60c299731245f9446c20db6299d826e2489de03ad69300"
+    },
+    {
+      "@id": "blocks/7ef98f4b3428e728e813c878905430a36108fd84391fd47cd27b0746625e9e9a.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1129468",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "7ef98f4b3428e728e813c878905430a36108fd84391fd47cd27b0746625e9e9a"
+    },
+    {
+      "@id": "blocks/80b03f6ca3a26d2a0b77ea02970f122f4a439a4a08840ab8ce3c800e9009ac6c.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1197287",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "80b03f6ca3a26d2a0b77ea02970f122f4a439a4a08840ab8ce3c800e9009ac6c"
+    },
+    {
+      "@id": "blocks/812b3df3220232317aae0f62a87352490b9e512a393b092b53e4f29f17df27e0.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1260301",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "812b3df3220232317aae0f62a87352490b9e512a393b092b53e4f29f17df27e0"
+    },
+    {
+      "@id": "blocks/8256436b984ff3c3c63422ed13c8db9d4adc1269d730b8c4695165ec895bcbfe.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1278158",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "8256436b984ff3c3c63422ed13c8db9d4adc1269d730b8c4695165ec895bcbfe"
+    },
+    {
+      "@id": "blocks/82bd3ecd1d29e3201a3cfbb06bda87f345e884ccd198da03add9f6122fd41be1.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1206206",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "82bd3ecd1d29e3201a3cfbb06bda87f345e884ccd198da03add9f6122fd41be1"
+    },
+    {
+      "@id": "blocks/8a1312c01aec99d554b9d56ebb051d64d4f7fdbfda8188c4d4facf8a1e11ab43.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1252827",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "8a1312c01aec99d554b9d56ebb051d64d4f7fdbfda8188c4d4facf8a1e11ab43"
+    },
+    {
+      "@id": "blocks/8a72b5bfdcb464004b4423f4256e476fcb21b9b6dde81fffd737f72fbcbe79c1.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1224314",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "8a72b5bfdcb464004b4423f4256e476fcb21b9b6dde81fffd737f72fbcbe79c1"
+    },
+    {
+      "@id": "blocks/8ee6669c0afa747f3c0ff6814c3389847f0bb143bd63a29468fb37e25e69b61d.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1197613",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "8ee6669c0afa747f3c0ff6814c3389847f0bb143bd63a29468fb37e25e69b61d"
+    },
+    {
+      "@id": "blocks/8f7ff62dae25eb619508958346b40d18546fb0f2af35ace128a81cbe9d87f423.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1145373",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "8f7ff62dae25eb619508958346b40d18546fb0f2af35ace128a81cbe9d87f423"
+    },
+    {
+      "@id": "blocks/917766415bbf7839c9252a1f6806da25923eca3f101d9b37e1df10bca5345e41.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1274858",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "917766415bbf7839c9252a1f6806da25923eca3f101d9b37e1df10bca5345e41"
+    },
+    {
+      "@id": "blocks/9450459fd9596cdf1e8b1345ccb6fe8d48224166b11212edee95d631c9a53118.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1241338",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "9450459fd9596cdf1e8b1345ccb6fe8d48224166b11212edee95d631c9a53118"
+    },
+    {
+      "@id": "blocks/94708310093dc505270ca8ad1038a74c1579f5679405f60de57e20e01267e5b1.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1202596",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "94708310093dc505270ca8ad1038a74c1579f5679405f60de57e20e01267e5b1"
+    },
+    {
+      "@id": "blocks/95410a65b64d0ddc36e2635df9e1387930486e643d715a90a486eb7d4dc4186f.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1256951",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "95410a65b64d0ddc36e2635df9e1387930486e643d715a90a486eb7d4dc4186f"
+    },
+    {
+      "@id": "blocks/962877db7121eb5ec2836950a09fc8ada4f28ad9db27d08ab7a62dff040d38b4.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1266880",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "962877db7121eb5ec2836950a09fc8ada4f28ad9db27d08ab7a62dff040d38b4"
+    },
+    {
+      "@id": "blocks/96a9f5df628b605b8a05df4ff7f0e91c22ee93c58d236a1df4666aa8530152ce.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1253114",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "96a9f5df628b605b8a05df4ff7f0e91c22ee93c58d236a1df4666aa8530152ce"
+    },
+    {
+      "@id": "blocks/98f8e8b18d7161efaa03e1c20f2a27f02016765c422ca45a85f0bace52898212.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1253909",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "98f8e8b18d7161efaa03e1c20f2a27f02016765c422ca45a85f0bace52898212"
+    },
+    {
+      "@id": "blocks/99ef3db4364fb6f0452591997fbed2d53c4ae16bd7bd8534dfd6920377cf36f8.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1258893",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "99ef3db4364fb6f0452591997fbed2d53c4ae16bd7bd8534dfd6920377cf36f8"
+    },
+    {
+      "@id": "blocks/9cba23867a4e3e3c01f227e1775ff781f91f6380c4520e7acbb312766410ffe1.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1282531",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "9cba23867a4e3e3c01f227e1775ff781f91f6380c4520e7acbb312766410ffe1"
+    },
+    {
+      "@id": "blocks/9e5de7409a59cb09e6948a8252f1a246d8750954c8ec5718920ff2ed598f0935.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1265092",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "9e5de7409a59cb09e6948a8252f1a246d8750954c8ec5718920ff2ed598f0935"
+    },
+    {
+      "@id": "blocks/9f9a8c2d917b8791dc2c349773b7d7c1706cf86724743c8fc4266385c52b3d12.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1245849",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "9f9a8c2d917b8791dc2c349773b7d7c1706cf86724743c8fc4266385c52b3d12"
+    },
+    {
+      "@id": "blocks/a0eaf5f4b81961354626a57462826113dcf8aeba2f4269b5351a2fd11a1eb556.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1197427",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "a0eaf5f4b81961354626a57462826113dcf8aeba2f4269b5351a2fd11a1eb556"
+    },
+    {
+      "@id": "blocks/a347c12c5e9d79fb82246d7afbdae2a4c692af613e1367ecf7902b14f53d2ca9.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1271196",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "a347c12c5e9d79fb82246d7afbdae2a4c692af613e1367ecf7902b14f53d2ca9"
+    },
+    {
+      "@id": "blocks/a5d635135ec67dbff2af96e256ed828f3675f4d297a2d83a4438f3232349e4b7.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1200947",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "a5d635135ec67dbff2af96e256ed828f3675f4d297a2d83a4438f3232349e4b7"
+    },
+    {
+      "@id": "blocks/a6ef83e6ded73f0d0807176aa3155c7d9545ca2def2d9fb3653f9f6367ea87d2.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1263541",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "a6ef83e6ded73f0d0807176aa3155c7d9545ca2def2d9fb3653f9f6367ea87d2"
+    },
+    {
+      "@id": "blocks/a7513b2f3bf7a77962b435d6f51ca1583de6e305f4c40a690b27db4f2095d607.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "691429",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "a7513b2f3bf7a77962b435d6f51ca1583de6e305f4c40a690b27db4f2095d607"
+    },
+    {
+      "@id": "blocks/a80048705522d7b6944837d4d312e82a542deb65e498fa4f3cf2277864b3024c.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1221950",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "a80048705522d7b6944837d4d312e82a542deb65e498fa4f3cf2277864b3024c"
+    },
+    {
+      "@id": "blocks/ace8a736e2f827962981c76381d17a34f93af747e8f476bb8b8c1a661203dc01.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1201131",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "ace8a736e2f827962981c76381d17a34f93af747e8f476bb8b8c1a661203dc01"
+    },
+    {
+      "@id": "blocks/b0174303a8584409158a6d8f4788e09e06109cd107ff254419496caed76d6ee8.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1264718",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "b0174303a8584409158a6d8f4788e09e06109cd107ff254419496caed76d6ee8"
+    },
+    {
+      "@id": "blocks/b3ea3a674b1116b4160f24bb9ed60a266ad0a528f80954e871b2d51e59fbd920.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1239728",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "b3ea3a674b1116b4160f24bb9ed60a266ad0a528f80954e871b2d51e59fbd920"
+    },
+    {
+      "@id": "blocks/b44172b95d09a7bf57cab1c2f3dd8599bcb63977ea92f6c42ff945f1d8545351.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1242838",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "b44172b95d09a7bf57cab1c2f3dd8599bcb63977ea92f6c42ff945f1d8545351"
+    },
+    {
+      "@id": "blocks/b91c3fb5352c1a827173ae1d0341ebcab2a8b8cb3de90d12b02d922373490404.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1212033",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "b91c3fb5352c1a827173ae1d0341ebcab2a8b8cb3de90d12b02d922373490404"
+    },
+    {
+      "@id": "blocks/bb5f8c164829af01f1438fc04468ccd192085bd890e8d17c39879e1d08396d52.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1270333",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "bb5f8c164829af01f1438fc04468ccd192085bd890e8d17c39879e1d08396d52"
+    },
+    {
+      "@id": "blocks/be035af6632fd2ac5eb773a3dcae2e20eb57c460c2ff4c4dc53a3f5ea1cb2b62.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1248922",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "be035af6632fd2ac5eb773a3dcae2e20eb57c460c2ff4c4dc53a3f5ea1cb2b62"
+    },
+    {
+      "@id": "blocks/c193b83e0f4bc2f16757dd6611f180b1ddf1c9923b47935dfa48e6d77a5543b2.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1224561",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "c193b83e0f4bc2f16757dd6611f180b1ddf1c9923b47935dfa48e6d77a5543b2"
+    },
+    {
+      "@id": "blocks/c26594a2c445c48850769deb41172daa66f2ad4d4f17bcee05ff4776006eaf8a.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1207687",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "c26594a2c445c48850769deb41172daa66f2ad4d4f17bcee05ff4776006eaf8a"
+    },
+    {
+      "@id": "blocks/c99c8137cc11147e3cee1cb4579990b7bb655bd759957e79db34db8371135fcb.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1238166",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "c99c8137cc11147e3cee1cb4579990b7bb655bd759957e79db34db8371135fcb"
+    },
+    {
+      "@id": "blocks/cd62b6ca41d8a424edbe526ad39fbe0d1117c10122b95c532ae8a3c280943385.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1271577",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "cd62b6ca41d8a424edbe526ad39fbe0d1117c10122b95c532ae8a3c280943385"
+    },
+    {
+      "@id": "blocks/d185444eca079fa3ae0d37577387ee8894074a2656d9418c5385609d165053c5.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1268470",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "d185444eca079fa3ae0d37577387ee8894074a2656d9418c5385609d165053c5"
+    },
+    {
+      "@id": "blocks/d80722436097198d9ee17ec81b9efe1da6bc30bb037cc8539ab5307398393971.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1189123",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "d80722436097198d9ee17ec81b9efe1da6bc30bb037cc8539ab5307398393971"
+    },
+    {
+      "@id": "blocks/df63e44b9b96beabd087e9b8334703b9f9f4ed5ac0fbf677fc4991e8d15c078e.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1261402",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "df63e44b9b96beabd087e9b8334703b9f9f4ed5ac0fbf677fc4991e8d15c078e"
+    },
+    {
+      "@id": "blocks/e415d129a3f5ced72a421416147c64a3362b313066f9f957fd46f4482cc59594.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1231303",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "e415d129a3f5ced72a421416147c64a3362b313066f9f957fd46f4482cc59594"
+    },
+    {
+      "@id": "blocks/e81bbd5b3acac999688eae13adc247285f3c95ef426ffa3e44f45bf6ef017246.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1171555",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "e81bbd5b3acac999688eae13adc247285f3c95ef426ffa3e44f45bf6ef017246"
+    },
+    {
+      "@id": "blocks/eedccc34873d86387997d870e93ea2e5ac9c9a6fc82c2b785b036fc64a8feb0a.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1274055",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "eedccc34873d86387997d870e93ea2e5ac9c9a6fc82c2b785b036fc64a8feb0a"
+    },
+    {
+      "@id": "blocks/f002bde72855d64b5e5e11ba818ba5745c01255e5095f968a239ff6638f66a4d.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1242594",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "f002bde72855d64b5e5e11ba818ba5745c01255e5095f968a239ff6638f66a4d"
+    },
+    {
+      "@id": "blocks/f0b4ff2230c7a90b594aac9ef18bb2a3482677ef22663234c93d7c699b4c85c0.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1266680",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "f0b4ff2230c7a90b594aac9ef18bb2a3482677ef22663234c93d7c699b4c85c0"
+    },
+    {
+      "@id": "blocks/ff0f700e883dd187f0041a219aa0d4e7c562a5371bb28ea736c53304e1f8e80a.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1224324",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "ff0f700e883dd187f0041a219aa0d4e7c562a5371bb28ea736c53304e1f8e80a"
+    },
+    {
+      "@id": "blocks/ff44c4a86210b0dffe6b62ff03eba7e5a2c0b83e19f33ec1022c3f64e654d209.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1222367",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "ff44c4a86210b0dffe6b62ff03eba7e5a2c0b83e19f33ec1022c3f64e654d209"
+    },
+    {
+      "@id": "schemas/block_index.schema.json",
+      "@type": [
+        "File",
+        "CreativeWork"
+      ],
+      "contentSize": "6217",
+      "description": "Formal JSON Schema (draft 2020-12) for block_index.json. Machine-validatable; covers the manifest JSON only -- see blocks_schema.txt for the binary block file format.",
+      "encodingFormat": "application/json",
+      "name": "block_index.schema.json (JSON Schema)",
+      "sha256": "3d328bd1767ffb559c8d0bd8b77ec5dce8700811a733d0dc9d3cb50d1557c758"
+    },
+    {
+      "@id": "schemas/blocks_schema.txt",
+      "@type": [
+        "File",
+        "CreativeWork"
+      ],
+      "contentSize": "14786",
+      "description": "Prose specification of the tilezz-rat-dafsa-blocks wire format: manifest fields, block file binary layout, the read algorithm.",
+      "encodingFormat": "text/plain",
+      "name": "blocks_schema.txt (prose)",
+      "sha256": "fb1d5332252fde38d1bfdbbb9d9a660bf5f5f896129fd55afc53b23fd5fb2716"
+    },
+    {
+      "@id": "schemas/rat_schema.txt",
+      "@type": [
+        "File",
+        "CreativeWork"
+      ],
+      "contentSize": "3215",
+      "description": "Length-prefix convention used inside the DAFSA's accepted sequences: stored_sequence = [len, rat...].",
+      "encodingFormat": "text/plain",
+      "name": "rat_schema.txt (prose)",
+      "sha256": "703c547a09305703a356f6f676e2b9977ff75696f0d806cfc79de78792da3522"
+    },
+    {
+      "@id": "tools/__pycache__/decode.cpython-313.pyc",
+      "@type": "File",
+      "contentSize": "11180",
+      "encodingFormat": "application/octet-stream",
+      "sha256": "a73da0435efc7df2af1d8dee3256b3f32f5916d8e2525dd06297f25b84b11794"
+    },
+    {
+      "@id": "tools/count.py",
+      "@type": "File",
+      "contentSize": "7087",
+      "description": "Standalone Python 3 script (stdlib + sibling decode.py) that prints the seven per-perimeter family series (free, oneSided, achiral, rotationSymmetric, symmetric, subring, coset) as OEIS-style terms. `--print` (default, fast) reads `free` off the DAFSA rank index without decoding and cross-checks it against ro-crate-metadata.json, echoing the other six from variableMeasured; `--verify` (slow) decodes every rat, independently re-derives all seven, and checks each against the metadata. Exits 0 on success, 1 on mismatch.",
+      "encodingFormat": "text/x-python",
+      "name": "count.py (Python 3 per-perimeter family counter + verifier)",
+      "sha256": "03783b89d01e08334e2ebbdd89b01a958abb4550bec1195f00fe8d8d15614640"
+    },
+    {
+      "@id": "tools/decode.py",
+      "@type": "File",
+      "contentSize": "8970",
+      "description": "Standalone, dependency-free Python 3 script that walks the blocked DAFSA in this directory and prints every rat as a line of space-separated signed integers. Run as `python3 tools/decode.py > rats.txt`.",
+      "encodingFormat": "text/x-python",
+      "name": "decode.py (Python 3 decoder)",
+      "sha256": "bda0a4696ca74e148f045d254d540fe16bfbe2e70c06d80725e01cf8929d9a1e"
+    },
+    {
+      "@id": "tools/reproduce.sh",
+      "@type": "File",
+      "contentSize": "2910",
+      "description": "Shell script that re-runs the exact pipeline that produced this dataset: clones the source repo at the recorded commit, builds rat_enum, and runs the original CLI invocation(s). Run as `bash tools/reproduce.sh`. Honours REPO, COMMIT, SRC_DIR env vars for offline / pre-cloned scenarios; honours SOURCE_DATE_EPOCH for bit-identical metadata.",
+      "encodingFormat": "application/x-sh",
+      "name": "reproduce.sh (executable rebuild script)",
+      "sha256": "f3012a61e48d7d56a16be3f7eaf4795ea24c7265a2d2f6581bf2274f55879a19"
+    },
+    {
+      "@id": "tools/verify.rs",
+      "@type": "File",
+      "contentSize": "22961",
+      "description": "Independent single-file Rust verifier (run with `cargo install rust-script && rust-script tools/verify.rs`). Decodes every stored rat straight from the binary blocks -- reimplementing the format with no dependency on the tilezz crate that produced the asset -- and in one compiled, multi-threaded pass checks per-block SHA-256 against the manifest, that every sequence is its own dihedral-canonical CCW form, and that the seven per-perimeter family series re-derived from the rats match variableMeasured and n_sequences. This is the fast verifier the project pipeline runs by default; the Python tools (count.py --verify + verify_canonical.py + verify_sha256.py) are the zero-dependency, no-toolchain fallback that performs the same checks. Exits 0 on success, 1 on any mismatch / violation.",
+      "encodingFormat": "application/octet-stream",
+      "name": "verify.rs (Rust verifier, rust-script)",
+      "sha256": "c4cb4204cdc98d1c340832e1d285c05ca1cccf55b844b08d815050681b30ef01"
+    },
+    {
+      "@id": "tools/verify_canonical.py",
+      "@type": "File",
+      "contentSize": "4575",
+      "description": "Standalone Python 3 script (stdlib + sibling decode.py) that independently recomputes each stored rat's dihedral-canonical CCW form (lex-min over rotations of the sequence and its reverse, turn-sum > 0) and checks the stored sequence equals it. Catches any non-canonical entry and excludes non-canonical duplicates. Run as `python3 tools/verify_canonical.py`; `--stride N` / `--max N` sample large assets. Exits 0 if all canonical, 1 on violation.",
+      "encodingFormat": "text/x-python",
+      "name": "verify_canonical.py (Python 3 canonical-form verifier)",
+      "sha256": "6f75a5685e601d677870efab12c6e4bcaa2ff87f564a45acac6df93b1f44bf77"
+    },
+    {
+      "@id": "tools/verify_sha256.py",
+      "@type": "File",
+      "contentSize": "5663",
+      "description": "Standalone, dependency-free Python 3 script that checks every sha256 recorded in ro-crate-metadata.json against the on-disk file bytes, flags any file on disk not in the manifest, and reports the producing-tool commit. Run as `python3 tools/verify_sha256.py`; add `--strict` to also fail on non-pristine provenance (`-dirty`/`unknown`). Exits 0 on full match, 1 on mismatch.",
+      "encodingFormat": "text/x-python",
+      "name": "verify_sha256.py (Python 3 hash verifier)",
+      "sha256": "42d85afa86432513afc7251e92b0ee5ddcbde4d27eeb46f8785ac74b069646c1"
+    }
+  ]
+}
