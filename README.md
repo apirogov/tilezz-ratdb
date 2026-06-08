@@ -20,6 +20,8 @@ pinned to a commit so the served bytes are immutable.
 |---|---|---|---|
 | `zz12-n14-free` | ZZ12, perimeter <= 14, free (OEIS A316192) | 33279563 | `c8a7c1ddb13e67497d8671b86910925cf430acc8` |
 | `zz4-n32-free` | ZZ4, perimeter <= 32, free (OEIS A266549) | 435646127 | `dd4fd140969d82adddc54331d4d652c1f72d45a6` |
+| `zz8-n20-free` | ZZ8, perimeter <= 20, free (OEIS A316198) | 2940554725 | `aea0104980c8742d828060ec03437c64b72afa18` |
+| `zz6-n24-free` | ZZ6, perimeter <= 24, free (OEIS A284869) | 7099803810 | `aea0104980c8742d828060ec03437c64b72afa18` |
 
 ## License
 
