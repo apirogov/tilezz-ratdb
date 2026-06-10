@@ -21,7 +21,7 @@ pinned to a commit so the served bytes are immutable.
 | `zz4-n32-free` | ZZ4, perimeter <= 32, free (OEIS A266549) | 435646127 | `dd4fd140969d82adddc54331d4d652c1f72d45a6` |
 | `zz8-n20-free` | ZZ8, perimeter <= 20, free (OEIS A316198) | 2940554725 | `aea0104980c8742d828060ec03437c64b72afa18` |
 | `zz6-n24-free` | ZZ6, perimeter <= 24, free (OEIS A284869) | 7099803810 | `aea0104980c8742d828060ec03437c64b72afa18` |
-| `zz10-n17-free` | ZZ10, perimeter <= 17, free (OEIS A316200) | 464451270 | `aea0104980c8742d828060ec03437c64b72afa18` |
+| `zz10-n18-free` | ZZ10, perimeter <= 18, free (OEIS A316200) | 2875831850 | `aea0104980c8742d828060ec03437c64b72afa18` |
 | `zz12-n16-free` | ZZ12, perimeter <= 16, free (OEIS A316192) | 1696726440 | `aea0104980c8742d828060ec03437c64b72afa18` |
 
 ## License
