@@ -1,0 +1,514 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.2/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "ring",
+          "value": 6
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "step",
+          "value": 2
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "effectiveRing",
+          "value": 3
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "maxPerimeter",
+          "value": 39
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "canonicalization",
+          "value": "free"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "nSequences",
+          "value": 730680086
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "maxIndexedLength",
+          "value": 39
+        }
+      ],
+      "creator": [
+        {
+          "@id": "https://orcid.org/0000-0002-5077-7497"
+        }
+      ],
+      "datePublished": "2026-06-12T07:51:55Z",
+      "description": "Simple matchstick polygons (closed self-avoiding unit-edge polygons) on the cyclotomic ring Z[zeta_3], with perimeter <= 39, canonicalized by free (full dihedral) symmetry. Contains 730680086 sequences. It is the order-3 sub-ring of Z[zeta_6] (Z[zeta_3] has no native lattice here, so it is enumerated as the directions that are multiples of 2, via --step 2); each stored turn is a Z[zeta_6] unit (always even) equal to 2 times the Z[zeta_3] turn -- divide stored values by 2 to read Z[zeta_3] turns. See README.md (Turn-angle units). Self-describing tilezz-rat-dafsa-blocks asset (schemas alongside).",
+      "distribution": {
+        "@type": "DataDownload",
+        "contentSize": "2481",
+        "contentUrl": "block_index.json",
+        "encodingFormat": "application/json"
+      },
+      "hasPart": [
+        {
+          "@id": "README.md"
+        },
+        {
+          "@id": "block_index.json"
+        },
+        {
+          "@id": "blocks/2ff0f31c6e88a5a6cafee6fb55b1bc1691307db1b3ec89234c96df60670ee4dc.bin"
+        },
+        {
+          "@id": "blocks/373711e6cc0e8b1b09bc0a4c04cb4920149362c4b689b461b805f72d539ed58d.bin"
+        },
+        {
+          "@id": "blocks/3ea37661c929d28feb838ed69e5e8d1cb425d83ee959b0efa6ff8c33aaf07ed6.bin"
+        },
+        {
+          "@id": "blocks/50ae62ed5cbfde4ef9858b23f48a8d3dde1614b5bb763bfb3152a48cbede7a99.bin"
+        },
+        {
+          "@id": "blocks/6116c93711944d15550122d705572005b845265b5252a253ad669c996ff700be.bin"
+        },
+        {
+          "@id": "blocks/61273eb808a4e8a7e1b5a71b66b4a36391c4f5fd2ad49c005282721dd8854ca3.bin"
+        },
+        {
+          "@id": "blocks/697824d38295b43ab7763c21cad546f1bd2ade79559545815c6b09e45a532384.bin"
+        },
+        {
+          "@id": "blocks/6e5ba9925fd31e84fde836ba0fdcf5b8c0f513f4457277a20c56bf23b4be4064.bin"
+        },
+        {
+          "@id": "blocks/77e8255b3901508929ec684d6d3dada6ca5d04590e97144fe05129526b816a7e.bin"
+        },
+        {
+          "@id": "schemas/block_index.schema.json"
+        },
+        {
+          "@id": "schemas/blocks_schema.txt"
+        },
+        {
+          "@id": "schemas/rat_schema.txt"
+        },
+        {
+          "@id": "tools/count.py"
+        },
+        {
+          "@id": "tools/decode.py"
+        },
+        {
+          "@id": "tools/reproduce.sh"
+        },
+        {
+          "@id": "tools/verify.rs"
+        },
+        {
+          "@id": "tools/verify_canonical.py"
+        },
+        {
+          "@id": "tools/verify_sha256.py"
+        }
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "tilezz-dataset-id",
+        "value": "tilezz-rat-zz3-n39-free"
+      },
+      "keywords": [
+        "combinatorial enumeration",
+        "self-avoiding polygon",
+        "cyclotomic lattice",
+        "matchstick polygon",
+        "Z[zeta_3]"
+      ],
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "mainEntity": {
+        "@id": "block_index.json"
+      },
+      "name": "tilezz simple matchstick polygons on Z[zeta_3], perimeter <= 39, free",
+      "variableMeasured": [
+        {
+          "@type": "PropertyValue",
+          "description": "Self-avoiding polygons by exact perimeter (index = perimeter, from 1); the base count, up to rotation and reflection.",
+          "name": "free",
+          "unitText": "polygons",
+          "value": "0,0,1,0,0,1,0,0,2,0,0,7,0,0,33,0,0,209,0,0,1510,0,0,12054,0,0,100800,0,0,874203,0,0,7773270,0,0,70559545,0,0,651358451"
+        },
+        {
+          "@type": "PropertyValue",
+          "description": "Up to rotation only; mirror images counted as distinct (= 2*free - achiral).",
+          "name": "oneSided",
+          "unitText": "polygons",
+          "value": "0,0,1,0,0,1,0,0,2,0,0,9,0,0,54,0,0,380,0,0,2928,0,0,23793,0,0,200824,0,0,1745654,0,0,15539622,0,0,141093987,0,0,1302652898"
+        },
+        {
+          "@type": "PropertyValue",
+          "description": "Equal to its own mirror image.",
+          "name": "achiral",
+          "unitText": "polygons",
+          "value": "0,0,1,0,0,1,0,0,2,0,0,5,0,0,12,0,0,38,0,0,92,0,0,315,0,0,776,0,0,2752,0,0,6918,0,0,25103,0,0,64004"
+        },
+        {
+          "@type": "PropertyValue",
+          "description": "Repetition factor > 1 (nontrivial rotational symmetry).",
+          "name": "rotationSymmetric",
+          "unitText": "polygons",
+          "value": "0,0,1,0,0,1,0,0,1,0,0,2,0,0,3,0,0,5,0,0,9,0,0,17,0,0,31,0,0,63,0,0,123,0,0,249,0,0,505"
+        },
+        {
+          "@type": "PropertyValue",
+          "description": "Has a nontrivial symmetry: achiral OR rotationSymmetric.",
+          "name": "symmetric",
+          "unitText": "polygons",
+          "value": "0,0,1,0,0,1,0,0,2,0,0,5,0,0,13,0,0,40,0,0,97,0,0,326,0,0,800,0,0,2801,0,0,7025,0,0,25324,0,0,64475"
+        },
+        {
+          "@type": "PropertyValue",
+          "description": "All turns even -- the polygons of the order-n/2 sub-ring.",
+          "name": "subring",
+          "unitText": "polygons",
+          "value": "0,0,1,0,0,1,0,0,2,0,0,7,0,0,33,0,0,209,0,0,1510,0,0,12054,0,0,100800,0,0,874203,0,0,7773270,0,0,70559545,0,0,651358451"
+        },
+        {
+          "@type": "PropertyValue",
+          "description": "All turns odd -- no straight segments; even perimeter only.",
+          "name": "coset",
+          "unitText": "polygons",
+          "value": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"
+        }
+      ],
+      "version": "2026-06-12"
+    },
+    {
+      "@id": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "@type": "CreativeWork",
+      "identifier": "CC-BY-SA-4.0",
+      "name": "Creative Commons Attribution-ShareAlike 4.0 International"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5077-7497",
+      "@type": "Person",
+      "email": "apirogov@users.noreply.github.com",
+      "identifier": "https://orcid.org/0000-0002-5077-7497",
+      "name": "Anton Pirogov"
+    },
+    {
+      "@id": "#tilezz",
+      "@type": "SoftwareApplication",
+      "codeRepository": "https://github.com/apirogov/tilezz",
+      "description": "Utilities to work with perfect-precision polygonal tiles built on top of cyclotomic integer rings.",
+      "downloadUrl": "https://github.com/apirogov/tilezz/archive/7b63a8895289033f229fb1e05815d1948f23983e.tar.gz",
+      "name": "tilezz",
+      "softwareRequirements": "Rust toolchain (stable, 2024-12+); standard Cargo build prerequisites (git, C linker, pkg-config).",
+      "softwareVersion": "7b63a8895289033f229fb1e05815d1948f23983e",
+      "url": "https://github.com/apirogov/tilezz",
+      "version": "0.1.3"
+    },
+    {
+      "@id": "#build",
+      "@type": "CreateAction",
+      "description": "Produced by: ./target/release/rat_enum --ring 6 -n 39 --free --step 2 --mode stream --threads 16 -o tilezz-rat-zz3-n39-free-pipeline && ./target/release/rat_enum --ring 6 -n 39 --free --step 2 --mode merge -o tilezz-rat-zz3-n39-free-pipeline && ./target/release/rat_enum --ring 6 -n 39 --free --step 2 --mode build --target-block-bytes 4194304 -o tilezz-rat-zz3-n39-free-pipeline && mv tilezz-rat-zz3-n39-free-pipeline/dafsa tilezz-rat-zz3-n39-free\nReproduce: bash tools/reproduce.sh (in this directory). See README.md for context.",
+      "endTime": "2026-06-12T07:51:55Z",
+      "instrument": {
+        "@id": "#tilezz"
+      },
+      "name": "Generate tilezz-rat-zz3-n39-free",
+      "result": [
+        {
+          "@id": "README.md"
+        },
+        {
+          "@id": "block_index.json"
+        },
+        {
+          "@id": "blocks/2ff0f31c6e88a5a6cafee6fb55b1bc1691307db1b3ec89234c96df60670ee4dc.bin"
+        },
+        {
+          "@id": "blocks/373711e6cc0e8b1b09bc0a4c04cb4920149362c4b689b461b805f72d539ed58d.bin"
+        },
+        {
+          "@id": "blocks/3ea37661c929d28feb838ed69e5e8d1cb425d83ee959b0efa6ff8c33aaf07ed6.bin"
+        },
+        {
+          "@id": "blocks/50ae62ed5cbfde4ef9858b23f48a8d3dde1614b5bb763bfb3152a48cbede7a99.bin"
+        },
+        {
+          "@id": "blocks/6116c93711944d15550122d705572005b845265b5252a253ad669c996ff700be.bin"
+        },
+        {
+          "@id": "blocks/61273eb808a4e8a7e1b5a71b66b4a36391c4f5fd2ad49c005282721dd8854ca3.bin"
+        },
+        {
+          "@id": "blocks/697824d38295b43ab7763c21cad546f1bd2ade79559545815c6b09e45a532384.bin"
+        },
+        {
+          "@id": "blocks/6e5ba9925fd31e84fde836ba0fdcf5b8c0f513f4457277a20c56bf23b4be4064.bin"
+        },
+        {
+          "@id": "blocks/77e8255b3901508929ec684d6d3dada6ca5d04590e97144fe05129526b816a7e.bin"
+        },
+        {
+          "@id": "tools/count.py"
+        },
+        {
+          "@id": "tools/decode.py"
+        },
+        {
+          "@id": "tools/reproduce.sh"
+        },
+        {
+          "@id": "tools/verify.rs"
+        },
+        {
+          "@id": "tools/verify_canonical.py"
+        },
+        {
+          "@id": "tools/verify_sha256.py"
+        }
+      ]
+    },
+    {
+      "@id": "README.md",
+      "@type": "File",
+      "contentSize": "4818",
+      "description": "Human-readable entry point: dataset overview, author and copyright notice, CC-BY-SA 4.0 license summary, contents map, reproduction recipe (repo URL, exact commit, CLI invocation), and a SHA-256 verification snippet.",
+      "encodingFormat": "text/markdown",
+      "name": "README.md",
+      "sha256": "3c58d3bde9164eeee5f97c98d574d3a19b4b340a5808bc485d1c7f064d6dcd50"
+    },
+    {
+      "@id": "block_index.json",
+      "@type": "File",
+      "conformsTo": [
+        {
+          "@id": "schemas/block_index.schema.json"
+        },
+        {
+          "@id": "schemas/blocks_schema.txt"
+        }
+      ],
+      "contentSize": "2481",
+      "description": "Manifest for the tilezz-rat-dafsa-blocks asset (state / edge counts, root state record, content-addressed block index).",
+      "encodingFormat": "application/json",
+      "name": "block_index.json",
+      "sha256": "74bcfe2f780aecad0c525740e0e98c3cd0f6996ebd8264f78dcb2dac2d2643a7"
+    },
+    {
+      "@id": "blocks/2ff0f31c6e88a5a6cafee6fb55b1bc1691307db1b3ec89234c96df60670ee4dc.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1086163",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "2ff0f31c6e88a5a6cafee6fb55b1bc1691307db1b3ec89234c96df60670ee4dc"
+    },
+    {
+      "@id": "blocks/373711e6cc0e8b1b09bc0a4c04cb4920149362c4b689b461b805f72d539ed58d.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1150700",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "373711e6cc0e8b1b09bc0a4c04cb4920149362c4b689b461b805f72d539ed58d"
+    },
+    {
+      "@id": "blocks/3ea37661c929d28feb838ed69e5e8d1cb425d83ee959b0efa6ff8c33aaf07ed6.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1137588",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "3ea37661c929d28feb838ed69e5e8d1cb425d83ee959b0efa6ff8c33aaf07ed6"
+    },
+    {
+      "@id": "blocks/50ae62ed5cbfde4ef9858b23f48a8d3dde1614b5bb763bfb3152a48cbede7a99.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1126366",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "50ae62ed5cbfde4ef9858b23f48a8d3dde1614b5bb763bfb3152a48cbede7a99"
+    },
+    {
+      "@id": "blocks/6116c93711944d15550122d705572005b845265b5252a253ad669c996ff700be.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "735252",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "6116c93711944d15550122d705572005b845265b5252a253ad669c996ff700be"
+    },
+    {
+      "@id": "blocks/61273eb808a4e8a7e1b5a71b66b4a36391c4f5fd2ad49c005282721dd8854ca3.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1155963",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "61273eb808a4e8a7e1b5a71b66b4a36391c4f5fd2ad49c005282721dd8854ca3"
+    },
+    {
+      "@id": "blocks/697824d38295b43ab7763c21cad546f1bd2ade79559545815c6b09e45a532384.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1137711",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "697824d38295b43ab7763c21cad546f1bd2ade79559545815c6b09e45a532384"
+    },
+    {
+      "@id": "blocks/6e5ba9925fd31e84fde836ba0fdcf5b8c0f513f4457277a20c56bf23b4be4064.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1156745",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "6e5ba9925fd31e84fde836ba0fdcf5b8c0f513f4457277a20c56bf23b4be4064"
+    },
+    {
+      "@id": "blocks/77e8255b3901508929ec684d6d3dada6ca5d04590e97144fe05129526b816a7e.bin",
+      "@type": "File",
+      "conformsTo": {
+        "@id": "schemas/blocks_schema.txt"
+      },
+      "contentSize": "1124987",
+      "description": "One block of the rat-DAFSA in tilezz-rat-block binary format, gzip-compressed.",
+      "encodingFormat": "application/gzip",
+      "name": "DAFSA block file",
+      "sha256": "77e8255b3901508929ec684d6d3dada6ca5d04590e97144fe05129526b816a7e"
+    },
+    {
+      "@id": "schemas/block_index.schema.json",
+      "@type": [
+        "File",
+        "CreativeWork"
+      ],
+      "contentSize": "6217",
+      "description": "Formal JSON Schema (draft 2020-12) for block_index.json. Machine-validatable; covers the manifest JSON only -- see blocks_schema.txt for the binary block file format.",
+      "encodingFormat": "application/json",
+      "name": "block_index.schema.json (JSON Schema)",
+      "sha256": "3d328bd1767ffb559c8d0bd8b77ec5dce8700811a733d0dc9d3cb50d1557c758"
+    },
+    {
+      "@id": "schemas/blocks_schema.txt",
+      "@type": [
+        "File",
+        "CreativeWork"
+      ],
+      "contentSize": "14786",
+      "description": "Prose specification of the tilezz-rat-dafsa-blocks wire format: manifest fields, block file binary layout, the read algorithm.",
+      "encodingFormat": "text/plain",
+      "name": "blocks_schema.txt (prose)",
+      "sha256": "fb1d5332252fde38d1bfdbbb9d9a660bf5f5f896129fd55afc53b23fd5fb2716"
+    },
+    {
+      "@id": "schemas/rat_schema.txt",
+      "@type": [
+        "File",
+        "CreativeWork"
+      ],
+      "contentSize": "3215",
+      "description": "Length-prefix convention used inside the DAFSA's accepted sequences: stored_sequence = [len, rat...].",
+      "encodingFormat": "text/plain",
+      "name": "rat_schema.txt (prose)",
+      "sha256": "703c547a09305703a356f6f676e2b9977ff75696f0d806cfc79de78792da3522"
+    },
+    {
+      "@id": "tools/count.py",
+      "@type": "File",
+      "contentSize": "7087",
+      "description": "Standalone Python 3 script (stdlib + sibling decode.py) that prints the seven per-perimeter family series (free, oneSided, achiral, rotationSymmetric, symmetric, subring, coset) as OEIS-style terms. `--print` (default, fast) reads `free` off the DAFSA rank index without decoding and cross-checks it against ro-crate-metadata.json, echoing the other six from variableMeasured; `--verify` (slow) decodes every rat, independently re-derives all seven, and checks each against the metadata. Exits 0 on success, 1 on mismatch.",
+      "encodingFormat": "text/x-python",
+      "name": "count.py (Python 3 per-perimeter family counter + verifier)",
+      "sha256": "03783b89d01e08334e2ebbdd89b01a958abb4550bec1195f00fe8d8d15614640"
+    },
+    {
+      "@id": "tools/decode.py",
+      "@type": "File",
+      "contentSize": "8970",
+      "description": "Standalone, dependency-free Python 3 script that walks the blocked DAFSA in this directory and prints every rat as a line of space-separated signed integers. Run as `python3 tools/decode.py > rats.txt`.",
+      "encodingFormat": "text/x-python",
+      "name": "decode.py (Python 3 decoder)",
+      "sha256": "bda0a4696ca74e148f045d254d540fe16bfbe2e70c06d80725e01cf8929d9a1e"
+    },
+    {
+      "@id": "tools/reproduce.sh",
+      "@type": "File",
+      "contentSize": "2865",
+      "description": "Shell script that re-runs the exact pipeline that produced this dataset: clones the source repo at the recorded commit, builds rat_enum, and runs the original CLI invocation(s). Run as `bash tools/reproduce.sh`. Honours REPO, COMMIT, SRC_DIR env vars for offline / pre-cloned scenarios; honours SOURCE_DATE_EPOCH for bit-identical metadata.",
+      "encodingFormat": "application/x-sh",
+      "name": "reproduce.sh (executable rebuild script)",
+      "sha256": "191efc588209dd988a45a1c39b55b3a61eba53638918b9caf8db81ad88ce89bc"
+    },
+    {
+      "@id": "tools/verify.rs",
+      "@type": "File",
+      "contentSize": "23425",
+      "description": "Independent single-file Rust verifier (run with `cargo install rust-script && rust-script tools/verify.rs`). Decodes every stored rat straight from the binary blocks -- reimplementing the format with no dependency on the tilezz crate that produced the asset -- and in one compiled, multi-threaded pass checks per-block SHA-256 against the manifest, that every sequence is its own dihedral-canonical CCW form, and that the seven per-perimeter family series re-derived from the rats match variableMeasured and n_sequences. This is the fast verifier the project pipeline runs by default; the Python tools (count.py --verify + verify_canonical.py + verify_sha256.py) are the zero-dependency, no-toolchain fallback that performs the same checks. Exits 0 on success, 1 on any mismatch / violation.",
+      "encodingFormat": "application/octet-stream",
+      "name": "verify.rs (Rust verifier, rust-script)",
+      "sha256": "916c71575147949b81c7649064601bf323aa17a103af59da96fb5f722f08d710"
+    },
+    {
+      "@id": "tools/verify_canonical.py",
+      "@type": "File",
+      "contentSize": "4575",
+      "description": "Standalone Python 3 script (stdlib + sibling decode.py) that independently recomputes each stored rat's dihedral-canonical CCW form (lex-min over rotations of the sequence and its reverse, turn-sum > 0) and checks the stored sequence equals it. Catches any non-canonical entry and excludes non-canonical duplicates. Run as `python3 tools/verify_canonical.py`; `--stride N` / `--max N` sample large assets. Exits 0 if all canonical, 1 on violation.",
+      "encodingFormat": "text/x-python",
+      "name": "verify_canonical.py (Python 3 canonical-form verifier)",
+      "sha256": "6f75a5685e601d677870efab12c6e4bcaa2ff87f564a45acac6df93b1f44bf77"
+    },
+    {
+      "@id": "tools/verify_sha256.py",
+      "@type": "File",
+      "contentSize": "5663",
+      "description": "Standalone, dependency-free Python 3 script that checks every sha256 recorded in ro-crate-metadata.json against the on-disk file bytes, flags any file on disk not in the manifest, and reports the producing-tool commit. Run as `python3 tools/verify_sha256.py`; add `--strict` to also fail on non-pristine provenance (`-dirty`/`unknown`). Exits 0 on full match, 1 on mismatch.",
+      "encodingFormat": "text/x-python",
+      "name": "verify_sha256.py (Python 3 hash verifier)",
+      "sha256": "42d85afa86432513afc7251e92b0ee5ddcbde4d27eeb46f8785ac74b069646c1"
+    }
+  ]
+}
