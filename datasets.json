@@ -1,0 +1,47 @@
+[
+  {
+    "name": "zz4_n32_free",
+    "repo": "apirogov/tilezz-ratdb",
+    "ref": "5dfacad2abe90258fd35f2d28a64aa218eeaeccd"
+  },
+  {
+    "name": "zz8_n20_free",
+    "repo": "apirogov/tilezz-ratdb",
+    "ref": "a7ef0d81f30c5adc7a1016ef784db90f95e425a9"
+  },
+  {
+    "name": "zz6_n24_free",
+    "repo": "apirogov/tilezz-ratdb",
+    "ref": "fb9d5fbbe52780a421b4625826e3f3ce2944ab53"
+  },
+  {
+    "name": "zz10_n18_free",
+    "repo": "apirogov/tilezz-ratdb",
+    "ref": "f6f81608a6d502cbb44c028acfaab3a055c2859c"
+  },
+  {
+    "name": "zz12_n16_free",
+    "repo": "apirogov/tilezz-ratdb",
+    "ref": "8d7943bcbe95f3120f65f5933e75c3f6c349eee3"
+  },
+  {
+    "name": "zz3_n39_free",
+    "repo": "apirogov/tilezz-ratdb",
+    "ref": "f8e064eb65c9c64d7bbaf9be0031883c25cc59a3"
+  },
+  {
+    "name": "zz5_n25_free",
+    "repo": "apirogov/tilezz-ratdb",
+    "ref": "5da739204f00c747945ccab4b300d1084458d785"
+  },
+  {
+    "name": "zz7_n21_free",
+    "repo": "apirogov/tilezz-ratdb",
+    "ref": "859b55bcf253b14be3b9e5de7b5e7584ebef1d4e"
+  },
+  {
+    "name": "zz9_n18_free",
+    "repo": "apirogov/tilezz-ratdb",
+    "ref": "bf066c98febcbf0143fd59739874c9dd328cbcc1"
+  }
+]

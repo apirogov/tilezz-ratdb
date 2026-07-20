@@ -1,0 +1,38 @@
+name: Pages
+
+# Deploy the RatDB explorer for THIS repo's datasets. The app source
+# (WASM + frontend + RO-Crate stitcher) lives in apirogov/tilezz; this
+# workflow just calls tilezz's reusable deploy workflow, hands it this
+# repo's datasets.json, and publishes to this repo's Pages site under
+# the custom domain ratdb.app.pirogov.de.
+#
+# Fires on push to main -- i.e. whenever datasets.json is bumped to pin
+# a new/updated dataset ref (the orphan data branches never trigger it).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - datasets.json
+      - .github/workflows/pages.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    # Pinned to the tilezz `ratdb-v1` tag (a non-`v*` tag, so it does not
+    # trigger tilezz's crate-publish CI). Keep `uses:` and `tilezz-ref:`
+    # equal so the app code and the workflow definition stay in lockstep.
+    # To ship an app change: cut ratdb-v2 in tilezz and bump BOTH here.
+    uses: apirogov/tilezz/.github/workflows/deploy-app.yml@ratdb-v1
+    with:
+      tilezz-ref: ratdb-v1
+      page-url: https://ratdb.app.pirogov.de/
