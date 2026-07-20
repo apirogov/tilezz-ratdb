@@ -77,8 +77,17 @@ content-addressable and re-checkable with no stored coordinates.
 
 ## Verifying
 
-With [tilezz](https://github.com/apirogov/tilezz) and the `zz12_n16_free`
-dataset present:
+The bundled `verify.sh` does the whole thing end-to-end -- integrity-checks and
+reassembles the split store, fetches the pinned `zz12_n16_free` DAFSA, builds
+`classify_tiles` from a pinned tilezz release (`v0.2.0`) with a provenance
+guard, then replays and coverage-checks every certificate:
+
+```sh
+sh verify.sh
+```
+
+Or, with [tilezz](https://github.com/apirogov/tilezz) and the `zz12_n16_free`
+dataset already present, run the check directly:
 
 ```sh
 # independent re-check of every cert + coverage completeness:

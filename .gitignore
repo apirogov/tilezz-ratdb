@@ -1,0 +1,6 @@
+# Byproducts of running verify.sh -- NOT part of the store.
+# The store itself is the split zz12_le14_certs.jsonl.gz.a* files (tracked).
+/tilezz-verify/
+/zz12_n16_free/
+/zz12_le14_certs.jsonl
+/zz12_le14_certs.jsonl.gz
